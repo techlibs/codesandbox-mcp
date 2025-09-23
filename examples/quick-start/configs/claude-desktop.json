@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "codesandbox": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@techlibs/codesandbox-mcp@latest"
+      ],
+      "env": {
+        "CODESANDBOX_API_TOKEN": "<your-api-token>"
+      }
+    },
+    "codesandbox-readonly": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@techlibs/codesandbox-mcp@latest",
+        "--read-only"
+      ],
+      "env": {
+        "CODESANDBOX_API_TOKEN": "<your-api-token>"
+      }
+    },
+    "codesandbox-custom": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@techlibs/codesandbox-mcp@latest",
+        "--vm-tier",
+        "Micro",
+        "--hibernation-timeout",
+        "1800",
+        "--keep-alive",
+        "--log-level",
+        "info"
+      ],
+      "env": {
+        "CODESANDBOX_API_TOKEN": "<your-api-token>"
+      }
+    }
+  }
+}
