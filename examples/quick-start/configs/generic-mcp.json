@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "codesandbox": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@techlibs/codesandbox-mcp@latest"
+      ],
+      "env": {
+        "CODESANDBOX_API_TOKEN": "<your-api-token>"
+      }
+    }
+  }
+}

@@ -6,6 +6,21 @@ A Model Context Protocol (MCP) server that exposes CodeSandbox SDK operations as
 - Auth: `CODESANDBOX_API_TOKEN` (or `CSB_API_KEY`)
 - SDK: Official `@codesandbox/sdk`
 
+## 🚀 Quick Start
+
+**New to CodeSandbox MCP?** Check out our [comprehensive demo project](./examples/quick-start/) that walks you through:
+- Complete setup with different AI clients
+- Real-world usage examples
+- Step-by-step tutorials
+- Common workflows and best practices
+
+## 📚 Examples and Tutorials
+
+- **[Quick Start Demo](./examples/quick-start/)** - Complete end-to-end tutorial
+- **[Sample Workflows](./examples/quick-start/sample-workflows.md)** - Real-world usage patterns
+- **[Troubleshooting Guide](./examples/quick-start/troubleshooting.md)** - Common issues and solutions
+- **[Advanced Usage](./examples/quick-start/advanced-usage.md)** - Advanced features and integrations
+
 ## Install / Run
 
 Use via `npx` in your MCP client config.
